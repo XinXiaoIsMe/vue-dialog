@@ -16,6 +16,9 @@ export default defineConfig({
         /\.vue\.[tj]sx?\?vue/,
       ],
       imports: ['vue'],
+      eslintrc: {
+        enabled: true,
+      },
     }),
   ],
 })
